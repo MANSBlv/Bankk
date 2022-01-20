@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Scene?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.TilePane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.stage.Stage?>
+
+<Scene xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.MemoryGameMainGame" >
+    
+            <AnchorPane prefHeight="788.0" prefWidth="1069.0">
+            <children>
+               <TilePane fx:id="tilePane" prefHeight="800.0" prefWidth="803.0">
+                  <children>
+                     <StackPane fx:id="st1" prefHeight="150.0" prefWidth="150.0">
+                        <children>
+                           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="TRANSPARENT" height="200.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+                           <TextArea onMouseClicked="#cardSymbol" prefHeight="200.0" prefWidth="200.0" />
+                        </children>
+                     </StackPane>
+                     <StackPane fx:id="st2" prefHeight="150.0" prefWidth="200.0">
+                        <children>
+                           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="TRANSPARENT" height="200.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+                           <TextArea onMouseClicked="#cardSymbol" prefHeight="200.0" prefWidth="200.0" />
+                        </children>
+                     </StackPane>
+                     <StackPane fx:id="st3" prefHeight="150.0" prefWidth="200.0">
+                        <children>
+                           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="TRANSPARENT" height="200.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+                           <TextArea onMouseClicked="#cardSymbol" prefHeight="200.0" prefWidth="200.0" />
+                        </children>
+                     </StackPane>
+                     <StackPane fx:id="st4" prefHeight="150.0" prefWidth="200.0">
+                        <children>
+                           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="TRANSPARENT" height="200.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+                           <TextArea onMouseClicked="#cardSymbol" prefHeight="200.0" prefWidth="200.0" />
+                        </children>
+                     </StackPane>
+                     <StackPane fx:id="st5" prefHeight="150.0" prefWidth="200.0">
+                        <children>
+                           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="TRANSPARENT" height="200.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+                           <TextArea onMouseClicked="#cardSymbol" prefHeight="200.0" prefWidth="200.0" />
+                        </children>
+                     </StackPane>
+                     <StackPane fx:id="st6" prefHeight="150.0" prefWidth="200.0">
+                        <children>
+                           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="TRANSPARENT" height="200.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+                           <TextArea onMouseClicked="#cardSymbol" prefHeight="200.0" prefWidth="200.0" />
+                        </children>
+                     </StackPane>
+                     <StackPane fx:id="st7" prefHeight="150.0" prefWidth="200.0">
+                        <children>
+                           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="TRANSPARENT" height="200.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+                           <TextArea onMouseClicked="#cardSymbol" prefHeight="200.0" prefWidth="200.0" />
+                        </children>
+                     </StackPane>
+                     <StackPane fx:id="st8" prefHeight="150.0" prefWidth="200.0">
+                        <children>
+                           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="TRANSPARENT" height="200.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+                           <TextArea onMouseClicked="#cardSymbol" prefHeight="200.0" prefWidth="200.0" />
+                        </children>
+                     </StackPane>
+                     <StackPane fx:id="st9" prefHeight="150.0" prefWidth="200.0">
+                        <children>
+                           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="TRANSPARENT" height="200.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+                           <TextArea onMouseClicked="#cardSymbol" prefHeight="200.0" prefWidth="200.0" />
+                        </children>
+                     </StackPane>
+                     <StackPane fx:id="st10" prefHeight="150.0" prefWidth="200.0">
+                        <children>
+                           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="TRANSPARENT" height="200.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+                           <TextArea onMouseClicked="#cardSymbol" prefHeight="200.0" prefWidth="200.0" />
+                        </children>
+                     </StackPane>
+                     <StackPane fx:id="st11" prefHeight="150.0" prefWidth="200.0">
+                        <children>
+                           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="TRANSPARENT" height="200.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+                           <TextArea onMouseClicked="#cardSymbol" prefHeight="200.0" prefWidth="200.0" />
+                        </children>
+                     </StackPane>
+                     <StackPane fx:id="st12" prefHeight="150.0" prefWidth="200.0">
+                        <children>
+                           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="TRANSPARENT" height="200.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+                           <TextArea onMouseClicked="#cardSymbol" prefHeight="200.0" prefWidth="200.0" />
+                        </children>
+                     </StackPane>
+                     <StackPane fx:id="st13" prefHeight="150.0" prefWidth="200.0">
+                        <children>
+                           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="TRANSPARENT" height="200.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+                           <TextArea onMouseClicked="#cardSymbol" prefHeight="200.0" prefWidth="200.0" />
+                        </children>
+                     </StackPane>
+                     <StackPane fx:id="st14" prefHeight="150.0" prefWidth="200.0">
+                        <children>
+                           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="TRANSPARENT" height="200.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+                           <TextArea onMouseClicked="#cardSymbol" prefHeight="200.0" prefWidth="200.0" />
+                        </children>
+                     </StackPane>
+                     <StackPane fx:id="st15" prefHeight="150.0" prefWidth="200.0">
+                        <children>
+                           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="TRANSPARENT" height="200.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+                           <TextArea onMouseClicked="#cardSymbol" prefHeight="200.0" prefWidth="200.0" />
+                        </children>
+                     </StackPane>
+                     <StackPane fx:id="st16" prefHeight="150.0" prefWidth="200.0">
+                        <children>
+                           <Rectangle arcHeight="5.0" arcWidth="5.0" fill="TRANSPARENT" height="200.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+                           <TextArea onMouseClicked="#cardSymbol" prefHeight="200.0" prefWidth="200.0" />
+                        </children>
+                     </StackPane>
+                  </children>
+               </TilePane>
+            </children></AnchorPane>
+        </Scene>
+    
+

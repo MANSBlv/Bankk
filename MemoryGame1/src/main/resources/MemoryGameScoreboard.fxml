@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Scene?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Scene xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.MemoryGameScoreboard">
+    <AnchorPane prefHeight="335.0" prefWidth="499.0">
+      <children>
+         <Button fx:id="backButton" layoutX="438.0" layoutY="281.0" mnemonicParsing="false" onAction="#backButtonPress" prefHeight="40.0" prefWidth="46.0" />
+         <ImageView fitHeight="41.0" fitWidth="56.0" layoutX="439.0" layoutY="280.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="https://i.ibb.co/FmPTX1q/favpng-arrow.png" />
+            </image>
+         </ImageView>
+         <ImageView fitHeight="90.0" fitWidth="200.0" layoutX="150.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="https://i.ibb.co/SKt0RYf/rezultati-Text.png" />
+            </image>
+         </ImageView>
+         <ImageView fitHeight="50.0" fitWidth="46.0" layoutX="23.0" layoutY="73.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="https://i.ibb.co/0sP8gbL/number1.png" />
+            </image>
+         </ImageView>
+         <ImageView fitHeight="50.0" fitWidth="46.0" layoutX="23.0" layoutY="128.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="https://i.ibb.co/rdHmc4q/number2.png" />
+            </image>
+         </ImageView>
+         <ImageView fitHeight="50.0" fitWidth="46.0" layoutX="23.0" layoutY="186.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="https://i.ibb.co/T0HTLKH/number3.png" />
+            </image>
+         </ImageView>
+         <ImageView fitHeight="89.0" fitWidth="46.0" layoutX="23.0" layoutY="242.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="https://i.ibb.co/grdG12f/number4.png" />
+            </image>
+         </ImageView>
+         <Text fx:id="firstPlace" layoutX="85.0" layoutY="102.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lietotājs 1 : punkti" wrappingWidth="164.13671875">
+            <font>
+               <Font size="17.0" />
+            </font>
+         </Text>
+         <Text fx:id="secondPlace" layoutX="85.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lietotājs 2 : punkti" wrappingWidth="164.13671875">
+            <font>
+               <Font size="17.0" />
+            </font>
+         </Text>
+         <Text fx:id="thirdPlace" layoutX="85.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lietotājs 3 : punkti" wrappingWidth="164.13671875">
+            <font>
+               <Font size="17.0" />
+            </font>
+         </Text>
+         <Text fx:id="fourthPlace" layoutX="85.0" layoutY="271.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lietotājs 4 : punkti" wrappingWidth="164.13671875">
+            <font>
+               <Font size="17.0" />
+            </font>
+         </Text>
+      </children></AnchorPane>
+</Scene>
