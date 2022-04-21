@@ -1,2 +1,2 @@
-# Bankk
+# Projects
 School and personal projects
